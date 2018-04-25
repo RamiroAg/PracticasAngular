@@ -68,7 +68,11 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="scripts\angular.min.js.map" />
+    <Content Include="scripts\app\views\bicyclesIndex.html" />
+    <Content Include="scripts\app\views\customersIndex.html" />
+    <Content Include="scripts\app\views\default.html" />
     <Content Include="scripts\jquery-1.9.0.min.map" />
+    <Content Include="scripts\app\views\rentalsIndex.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,7 +116,6 @@
     <Folder Include="scripts\app\controllers\" />
     <Folder Include="scripts\app\directives\" />
     <Folder Include="scripts\app\services\" />
-    <Folder Include="scripts\app\views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
