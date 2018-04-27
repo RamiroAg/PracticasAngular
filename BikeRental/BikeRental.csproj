@@ -68,6 +68,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="scripts\angular.min.js.map" />
+    <Content Include="scripts\app\controllers\applicationController.js" />
+    <Content Include="scripts\app\controllers\bicyclesController.js" />
+    <Content Include="scripts\app\services\bicyclesService.js" />
     <Content Include="scripts\app\views\bicyclesIndex.html" />
     <Content Include="scripts\app\views\customersIndex.html" />
     <Content Include="scripts\app\views\default.html" />
@@ -113,9 +116,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="scripts\app\controllers\" />
     <Folder Include="scripts\app\directives\" />
-    <Folder Include="scripts\app\services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
